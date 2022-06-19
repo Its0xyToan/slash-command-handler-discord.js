@@ -1,1 +1,1 @@
-# slash-command-hadler-discord.js
+# slash-command-handler-discord.js
