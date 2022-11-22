@@ -16,14 +16,14 @@ for(const fileName of filesName) {
     commands.set(data.name, data)
 }
 
+
 client.on("ready", () => {
     client.application.commands.set(commands.map(({ execute, ...data }) => data))
     console.log("----------------------")
     console.log("ready with " + client.user.tag)
     console.log("----------------------")
-    client.user.setPresence({ activities: [{ name: '/help | EcoBot' }], status: 'WATCHING' });
+    client.user.setPresence({ activities: [{ name: 'Made By 0xyToan !' }], status: 'WATCHING' });
 })
-
 
 
 client.on("interactionCreate", (interaction) => {
