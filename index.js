@@ -4,7 +4,7 @@ const { readdirSync } = require("fs")
 const Discord = require("discord.js")
 const client = new Client({ intents: Object.values(Intents.FLAGS) })
 
-})
+
 const config = require("./config")
 const commands = new Collection()
 
